@@ -1,0 +1,13 @@
+<template>
+  <require from="./c-element"></require>
+  <c-element>
+    <!-- this slot has an if.bind around it in c-element -->
+    <div slot="firstText">
+      firstText
+    </div>
+    <!-- this slot doesn't have an if.bind in c-element -->
+    <div slot="secondText">
+      secondText
+    </div>
+  </c-element>
+</template>

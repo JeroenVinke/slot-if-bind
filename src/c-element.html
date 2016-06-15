@@ -1,0 +1,10 @@
+<template>
+  <div if.bind="true">
+    <!-- this slot doesn't work -->
+    <slot name="firstText"></slot>
+  </div>
+  <div>
+    <!-- this one does -->
+    <slot name="secondText"></slot>
+  </div>
+</template>
